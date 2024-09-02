@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>
+        based on the marks you have been {{ result }}
+    </h1>
+    {% if result>=35 %}
+    <h2>You have been passed with {{result}} %</h2>
+    {% else %}
+    <h2>You have been failed with{{result}} %</h2>    
+    {% endif %}
+</body>
+</html>
